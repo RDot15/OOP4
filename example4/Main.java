@@ -40,6 +40,15 @@ public class Main {
         //
         //      System.out.println(studentService.getAll());
 
+        System.out.println();
+
+
+        TeacherService teacherService = new TeacherService();
+        teacherService.create("teacher1",10, 29);
+        teacherService.create("teacher2",8, 37);
+
+        System.out.println(teacherService.getAll());
+
 
 
 
